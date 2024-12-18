@@ -40,3 +40,12 @@ console.log(Object.keys(obj3))
 console.log(Object.values(obj3))
 console.log(Object.entries(obj3))
 console.log(obj3.hasOwnProperty('3'))
+
+const course={
+    coursename:"Js",
+    price:"5000"
+}
+
+const {coursename: name}=course
+//console.log(coursename)
+console.log(name)
